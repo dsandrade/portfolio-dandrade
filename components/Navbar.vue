@@ -7,7 +7,7 @@
     >
       <div class="container">
         <div class="navbar-brand">
-          <a class="navbar-item" href="https://bulma.io">
+          <a class="navbar-item" href="#">
             <img
               src="/imgs/d-logo.png"
               alt="Daniel Andrade | Backend e Front-end Developer."

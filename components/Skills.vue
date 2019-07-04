@@ -42,7 +42,7 @@
                 no navegador
               </p>
               <p class="list-title has-text-primary has-text-weight-normal">
-                Languages I speak:
+                Linguagens que utilizo:
               </p>
               <p>HTML, CSS, Sass, Less, Stylus, Javascript, VueJS</p>
             </div>
