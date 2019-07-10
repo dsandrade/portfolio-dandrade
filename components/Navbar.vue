@@ -56,8 +56,6 @@ export default {
   },
   methods: {
     showModal() {
-      // eslint-disable-next-line no-console
-      console.log('teste')
       this.$refs.contactModal.show()
     }
   }

@@ -10,7 +10,7 @@
                 <div class="columns is-centered">
                   <div class="column is-three-quarters">
                     <h1
-                      class="title is-spaced is-size-1-desktop is-size-2-tablet is-size-3-mobile"
+                      class="title is-spaced is-size-1-desktop is-size-2-tablet is-size-3-mobile title-black"
                     >
                       Obrigado por entrar em contato comigo. Como posso
                       ajudá-lo?
@@ -74,7 +74,7 @@
                   </div>
                   <div class="columns is-centered">
                     <div class="column">
-                      <button class="button is-success">
+                      <button class="button is-dsandrade">
                         Enviar
                       </button>
                     </div>
@@ -108,6 +108,10 @@ export default {
 </script>
 
 <style>
+.title-black {
+  color: #293347 !important;
+}
+
 .modal-content,
 .modal-card {
   width: 20rem;
@@ -150,5 +154,11 @@ export default {
   border-width: 2px;
   font-weight: 400;
   height: auto;
+}
+
+.button.is-dsandrade {
+  background-color: #209cee;
+  border-color: transparent;
+  color: #fff;
 }
 </style>

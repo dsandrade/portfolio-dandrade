@@ -16,15 +16,36 @@
             </p>
           </div>
           <div class="column level-item">
-            <a href="#" class="button is-info is-outlined is-rounded is-medium">
+            <a
+              href="#"
+              class="button is-info is-outlined is-rounded is-medium"
+              @click.prevent="showModal"
+            >
               Vamos Conversar
             </a>
           </div>
         </div>
       </div>
     </div>
+
+    <ContactModal ref="contactModal"></ContactModal>
   </section>
 </template>
+
+<script>
+import ContactModal from '~/components/ContactModal.vue'
+
+export default {
+  components: {
+    ContactModal
+  },
+  methods: {
+    showModal() {
+      this.$refs.contactModal.show()
+    }
+  }
+}
+</script>
 
 <style>
 .title {
