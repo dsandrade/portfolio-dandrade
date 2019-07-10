@@ -31,14 +31,38 @@
         <div id="navMenu" class="navbar-menu">
           <div class="navbar-end">
             <div class="navbar-item">
-              <a class="button is-info is-outlined is-rounded">Fale Comigo</a>
+              <a
+                class="button is-info is-outlined is-rounded"
+                @click.prevent="showModal"
+              >
+                Fale Comigo
+              </a>
             </div>
           </div>
         </div>
       </div>
     </nav>
+
+    <ContactModal ref="contactModal"></ContactModal>
   </section>
 </template>
+
+<script>
+import ContactModal from '~/components/ContactModal.vue'
+
+export default {
+  components: {
+    ContactModal
+  },
+  methods: {
+    showModal() {
+      // eslint-disable-next-line no-console
+      console.log('teste')
+      this.$refs.contactModal.show()
+    }
+  }
+}
+</script>
 
 <style>
 .navbar {
