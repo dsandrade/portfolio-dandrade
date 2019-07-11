@@ -42,7 +42,7 @@
         </p>
       </div>
       <div class="copyright">
-        Criado por mim Dsandrade
+        Create By Daniel Andrade
       </div>
       <div class="made-by-bulma">
         <a href="https://bulma.io">

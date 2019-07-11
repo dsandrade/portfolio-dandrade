@@ -7,7 +7,7 @@
         <div class="columns level">
           <div class="column level-item">
             <h1 class="title">
-              Começe um projeto
+              Comece um projeto
             </h1>
           </div>
           <div class="column level-item">

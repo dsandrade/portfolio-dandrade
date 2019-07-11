@@ -12,74 +12,16 @@
                     <h1
                       class="title is-spaced is-size-1-desktop is-size-2-tablet is-size-3-mobile title-black"
                     >
-                      Obrigado por entrar em contato comigo. Como posso
-                      ajudá-lo?
+                      Obrigado pela atenção, entre em contato comigo pelo meu
+                      email:
                     </h1>
+                    <h2
+                      class="subtitle is-spaced is-size-1-desktop is-size-2-tablet is-size-3-mobile title-black"
+                    >
+                      dsandrade777@gmail.com
+                    </h2>
                   </div>
                 </div>
-              </div>
-            </div>
-            <div class="is-white">
-              <div class="container">
-                <form id="form" action="#" method="POST" accept-charset="UTF-8">
-                  <div class="columns is-centered">
-                    <div class="column is-half">
-                      <div class="field">
-                        <label class="label" for="name">
-                          Nome
-                        </label>
-                        <div class="control is-expanded">
-                          <input
-                            type="text"
-                            class="input is-large"
-                            name="name"
-                            id="name"
-                            required
-                          />
-                        </div>
-                      </div>
-                    </div>
-                    <div class="column is-half">
-                      <div class="field">
-                        <label class="label" for="email">
-                          Email
-                        </label>
-                        <div class="control is-expanded">
-                          <input
-                            type="email"
-                            class="input is-large"
-                            id="email"
-                            name="email"
-                            required
-                          />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="columns is-centered">
-                    <div class="column">
-                      <div class="field">
-                        <label class="label" for="message">Mensagem</label>
-                        <div class="control is-expanded">
-                          <textarea
-                            class="textarea is-large"
-                            name="message"
-                            id="message"
-                            rows="5"
-                            required
-                          ></textarea>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="columns is-centered">
-                    <div class="column">
-                      <button class="button is-dsandrade">
-                        Enviar
-                      </button>
-                    </div>
-                  </div>
-                </form>
               </div>
             </div>
           </div>
