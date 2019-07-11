@@ -21,6 +21,7 @@
             aria-label="menu"
             aria-expanded="false"
             data-target="navbarBasicExample"
+            @click.prevent="toggleMenu"
           >
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
@@ -28,7 +29,11 @@
           </a>
         </div>
 
-        <div id="navMenu" class="navbar-menu">
+        <div
+          id="navMenu"
+          class="navbar-menu"
+          :class="{ 'is-active': isActive }"
+        >
           <div class="navbar-end">
             <div class="navbar-item">
               <a
@@ -54,7 +59,15 @@ export default {
   components: {
     ContactModal
   },
+  data() {
+    return {
+      isActive: false
+    }
+  },
   methods: {
+    toggleMenu() {
+      this.isActive = !this.isActive
+    },
     showModal() {
       this.$refs.contactModal.show()
     }
@@ -63,6 +76,18 @@ export default {
 </script>
 
 <style>
+.navbar-burger.is-active span:nth-child(1) {
+  transform: translateY(5px) rotate(45deg);
+}
+
+.navbar-burger.is-active span:nth-child(2) {
+  opacity: 0;
+}
+
+.navbar-burger.is-active span:nth-child(3) {
+  transform: translateY(-5px) rotate(-45deg);
+}
+
 .navbar {
   padding: 1.2rem 0;
   box-shadow: none;
